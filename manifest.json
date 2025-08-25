@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Bitmap Redirect",
+  "version": "1.0",
+  "description": "Redirects .bitmap URLs to ordinals.com based on a database",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "webNavigation",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["error.html", "redirect.html", "error.js", "redirect.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
