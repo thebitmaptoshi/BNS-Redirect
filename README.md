@@ -13,9 +13,10 @@ can direct by raw name/address.bitmap or https://same in the URL bar
 In alpha, only manually written in names from [BNS/Registry](https://github.com/thebitmaptoshi/BNS/blob/main/Registry/) are currently redirecting appropriately 
 Contact me if you want me to plug you in manually, no BNS reinscriptions necessary for testing
 
-I assume no responsibility for any content displayed, I am merely distributing access.
+We assume no responsibility for any content displayed, we are merely distributing access.
 
 (If you want all inscriptions to go to the inscription page instead of the contents in v1, change line in redirect.js to instead read):
 
 window.location.href = `https://ordinals.com/inscription/${inscriptionId}`;
+
 
