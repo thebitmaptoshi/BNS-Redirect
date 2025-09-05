@@ -1,5 +1,5 @@
 // Database URL
-const DATABASE_URL = 'https://raw.githubusercontent.com/Zmakin/BNS/main/BNS%20registry.txt';
+const DATABASE_URL = 'https://raw.githubusercontent.com/thebitmaptoshi/BNS/main/BNS%20registry.txt';
 
 // Function to sanitize query
 function sanitizeQuery(query) {
@@ -102,4 +102,5 @@ chrome.webNavigation.onBeforeNavigate.addListener(async (details) => {
 updateRules();
 
 // Refresh rules periodically (every 5 minutes)
+
 setInterval(updateRules, 5 * 60 * 1000);
