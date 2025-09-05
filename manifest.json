@@ -1,13 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Bitmap Redirect",
-  "version": "1.0",
-  "description": "Redirects .bitmap URLs to ordinals.com based on a database",
+  "name": "Bitmap Re-direct",
+  "version": "1.1",
+  "description": "Redirects .bitmap URLs to ordinals content based on an index of the 1st 907k bitmaps",
   "permissions": [
     "declarativeNetRequest",
     "declarativeNetRequestFeedback",
-    "webNavigation",
-    "storage"
+    "webNavigation"
   ],
   "host_permissions": [
     "<all_urls>"
